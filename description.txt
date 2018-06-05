@@ -1,0 +1,11 @@
+Lightweight mod that makes new characters have a completely random item in each inventory slot.
+
+Also adds a potion that does the same.
+
+Changelog 0.1.2
+Added the mod's website
+(no changes to gameplay)
+
+Changelog 0.1.1
+Added an icon for the mod
+(no changes to gameplay)
