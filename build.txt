@@ -1,5 +1,5 @@
 author = Roboolet
-version = 0.1.2
+version = 0.1.1.1
 displayName = Unusual Start
 website = https://roboolet.wordpress.com/unusual-start/
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
