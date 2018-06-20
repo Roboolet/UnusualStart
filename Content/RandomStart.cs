@@ -17,9 +17,9 @@ namespace UnusualStart.Content
 
             //pickaxes and axes mechanic here
             int pickRandom = 469; //pickaxe statue
-            //int axeRandom = 465; //axe statue
+            int axeRandom = 465; //axe statue
 
-            int pickRandomIndex = Main.rand.Next(1, 36); //36 is the number of pickaxes there are
+            int pickRandomIndex = Main.rand.Next(1, 36);
             switch (pickRandomIndex)
             {
                 default:
@@ -135,7 +135,123 @@ namespace UnusualStart.Content
                     pickRandom = 2774;
                     break;
             }
-            
+            int axeRandomIndex = Main.rand.Next(1, 37);
+            switch (axeRandomIndex)
+            {
+                default:
+                    axeRandom = 10;
+                    break;
+
+                case 1:
+                    axeRandom = 10;
+                    break;
+                case 2:
+                    axeRandom = 204;
+                    break;
+                case 3:
+                    axeRandom = 217;
+                    break;
+                case 4:
+                    axeRandom = 990;
+                    break;
+                case 5:
+                    axeRandom = 991;
+                    break;
+                case 6:
+                    axeRandom = 992;
+                    break;
+                case 7:
+                    axeRandom = 993;
+                    break;
+                case 8:
+                    axeRandom = 1222;
+                    break;
+                case 9:
+                    axeRandom = 1223;
+                    break;
+                case 10:
+                    axeRandom = 1224;
+                    break;
+                case 11:
+                    axeRandom = 1233;
+                    break;
+                case 12:
+                    axeRandom = 1305;
+                    break;
+                case 13:
+                    axeRandom = 1507;
+                    break;
+                case 14:
+                    axeRandom = 2772;
+                    break;
+                case 15:
+                    axeRandom = 3482;
+                    break;
+                case 16:
+                    axeRandom = 3488;
+                    break;
+                case 17:
+                    axeRandom = 3494;
+                    break;
+                case 18:
+                    axeRandom = 3500;
+                    break;
+                case 19:
+                    axeRandom = 3506;
+                    break;
+                case 20:
+                    axeRandom = 3512;
+                    break;
+                case 21:
+                    axeRandom = 3518;
+                    break;
+                case 22:
+                    axeRandom = 3522;
+                    break;
+                case 23:
+                    axeRandom = 3523;
+                    break;
+                case 24:
+                    axeRandom = 3524;
+                    break;
+                case 25:
+                    axeRandom = 3525;
+                    break;
+                case 26:
+                    axeRandom = 383;
+                    break;
+                case 27:
+                    axeRandom = 384;
+                    break;
+                case 28:
+                    axeRandom = 387;
+                    break;
+                case 29:
+                    axeRandom = 1190;
+                    break;
+                case 30:
+                    axeRandom = 1197;
+                    break;
+                case 31:
+                    axeRandom = 1204;
+                    break;
+                case 32:
+                    axeRandom = 1232;
+                    break;
+                case 33:
+                    axeRandom = 1294;
+                    break;
+                case 34:
+                    axeRandom = 2342;
+                    break;
+                case 35:
+                    axeRandom = 2773;
+                    break;
+                case 36:
+                    axeRandom = 3098;
+                    break;
+            }
+
 
             Item item = new Item();
             item.SetDefaults(pickRandom);       
