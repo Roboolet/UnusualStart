@@ -3,6 +3,9 @@ Lightweight mod that makes new characters have a completely random item in each 
 
 ------Change History------
 
+---Changelog 0.2.1---
+Added some items i forgot to add in the last update
+
 ---Changelog 0.2---
 Made it so you are guaranteed at least one axe and pickaxe
 (The type you get is radomized still)
