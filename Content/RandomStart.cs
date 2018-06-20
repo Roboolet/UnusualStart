@@ -11,12 +11,134 @@ namespace UnusualStart.Content
     {
         public override void SetupStartInventory(IList<Item> items)
         {
-            items.RemoveAt(2);         //this remove all the items from your inventory
+            items.RemoveAt(2);         
             items.RemoveAt(1);
             items.RemoveAt(0);
 
+            //pickaxes and axes mechanic here
+            int pickRandom = 469; //pickaxe statue
+            //int axeRandom = 465; //axe statue
+
+            int pickRandomIndex = Main.rand.Next(1, 36); //36 is the number of pickaxes there are
+            switch (pickRandomIndex)
+            {
+                default:
+                    pickRandom = 1;
+                    break;
+
+                case 1:
+                    pickRandom = 1;
+                    break;
+                case 2:
+                    pickRandom = 103;
+                    break;
+                case 3:
+                    pickRandom = 122;
+                    break;
+                case 4:
+                    pickRandom = 776;
+                    break;
+                case 5:
+                    pickRandom = 777;
+                    break;
+                case 6:
+                    pickRandom = 778;
+                    break;
+                case 7:
+                    pickRandom = 798;
+                    break;
+                case 8:
+                    pickRandom = 882;
+                    break;
+                case 9:
+                    pickRandom = 990;
+                    break;
+                case 10:
+                    pickRandom = 1188;
+                    break;
+                case 11:
+                    pickRandom = 1195;
+                    break;
+                case 12:
+                    pickRandom = 1202;
+                    break;
+                case 13:
+                    pickRandom = 1230;
+                    break;
+                case 14:
+                    pickRandom = 1294;
+                    break;
+                case 15:
+                    pickRandom = 1320;
+                    break;
+                case 16:
+                    pickRandom = 1506;
+                    break;
+                case 17:
+                    pickRandom = 1917;
+                    break;
+                case 18:
+                    pickRandom = 2776;
+                    break;
+                case 19:
+                    pickRandom = 2781;
+                    break;
+                case 20:
+                    pickRandom = 2786;
+                    break;
+                case 21:
+                    pickRandom = 3466;
+                    break;
+                case 22:
+                    pickRandom = 3485;
+                    break;
+                case 23:
+                    pickRandom = 3491;
+                    break;
+                case 24:
+                    pickRandom = 3497;
+                    break;
+                case 25:
+                    pickRandom = 3503;
+                    break;
+                case 26:
+                    pickRandom = 3509;
+                    break;
+                case 27:
+                    pickRandom = 3515;
+                    break;
+                case 28:
+                    pickRandom = 3521;
+                    break;
+                case 29:
+                    pickRandom = 385;
+                    break;
+                case 30:
+                    pickRandom = 386;
+                    break;
+                case 31:
+                    pickRandom = 388;
+                    break;
+                case 32:
+                    pickRandom = 1189;
+                    break;
+                case 33:
+                    pickRandom = 1196;
+                    break;
+                case 34:
+                    pickRandom = 1203;
+                    break;
+                case 35:
+                    pickRandom = 1231;
+                    break;
+                case 36:
+                    pickRandom = 2774;
+                    break;
+            }
+            
+
             Item item = new Item();
-            item.SetDefaults(Main.rand.Next(1,3929));       //this is an example of how to add a vanilla terraria item         //and the stack of the item
+            item.SetDefaults(pickRandom);       
             items.Add(item);
 
             Item item1 = new Item();

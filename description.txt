@@ -1,11 +1,18 @@
 Lightweight mod that makes new characters have a completely random item in each inventory slot.
 
-Also adds a potion that does the same.
 
-Changelog 0.1.2
+------Change History------
+
+---Changelog 0.2---
+Made it so you are guaranteed at least one axe and pickaxe
+(The type you get is radomized still)
+
+
+---Changelog 0.1.1.1---
 Added the mod's website
 (no changes to gameplay)
 
-Changelog 0.1.1
+
+---Changelog 0.1.1---
 Added an icon for the mod
 (no changes to gameplay)
