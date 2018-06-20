@@ -19,7 +19,7 @@ namespace UnusualStart.Content
             int pickRandom = 469; //pickaxe statue
             int axeRandom = 465; //axe statue
 
-            int pickRandomIndex = Main.rand.Next(1, 36);
+            int pickRandomIndex = Main.rand.Next(1, 43);
             switch (pickRandomIndex)
             {
                 default:
@@ -134,8 +134,29 @@ namespace UnusualStart.Content
                 case 36:
                     pickRandom = 2774;
                     break;
+                case 37:
+                    pickRandom = 579;
+                    break;
+                case 38:
+                    pickRandom = 2798;
+                    break;
+                case 39:
+                    pickRandom = 2779;
+                    break;
+                case 40:
+                    pickRandom = 2784;
+                    break;
+                case 41:
+                    pickRandom = 3464;
+                    break;
+                case 42:
+                    pickRandom = 2341;
+                    break;
+                case 43:
+                    pickRandom = 2176;
+                    break;
             }
-            int axeRandomIndex = Main.rand.Next(1, 37);
+            int axeRandomIndex = Main.rand.Next(1, 40);
             switch (axeRandomIndex)
             {
                 default:
@@ -249,6 +270,18 @@ namespace UnusualStart.Content
                     break;
                 case 36:
                     axeRandom = 3098;
+                    break;
+                case 37:
+                    axeRandom = 799;
+                    break;
+                case 38:
+                    axeRandom = 2176;
+                    break;
+                case 39:
+                    axeRandom = 579;
+                    break;
+                case 40:
+                    axeRandom = 2798;
                     break;
             }
 
