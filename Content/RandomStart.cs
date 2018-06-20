@@ -258,7 +258,7 @@ namespace UnusualStart.Content
             items.Add(item);
 
             Item item1 = new Item();
-            item1.SetDefaults(Main.rand.Next(1, 3929));       //this is an example of how to add a vanilla terraria item    //and the stack of the item
+            item1.SetDefaults(axeRandom);       //this is an example of how to add a vanilla terraria item    //and the stack of the item
             items.Add(item1);
 
             Item item2 = new Item();
