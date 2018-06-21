@@ -2,6 +2,8 @@ Lightweight mod that makes new characters have a completely random item in each 
 
 
 ------Change History------
+---Changelog 0.2.2---
+Improved the quality of the code
 
 ---Changelog 0.2.1---
 Added some items i forgot to add in the last update
