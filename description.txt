@@ -1,7 +1,12 @@
 Lightweight mod that makes new characters have a completely random item in each inventory slot.
 
+WARNING: This item only supports items and projectiles from VANILLA Terraria
 
 ------Change History------
+---Changelog 0.3---
+Added the Soul of the Gambler
+(Rare drop from bosses)
+
 ---Changelog 0.2.2---
 Improved the quality of the code
 
