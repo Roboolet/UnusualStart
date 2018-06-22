@@ -27,7 +27,7 @@ namespace UnusualStart.Content
             item.height = refItem.height;
             item.rare = -12;
             item.value = 50000000;
-            item.maxStack = 20;
+            item.maxStack = 99;
         }
 
         public override void PostUpdate()
