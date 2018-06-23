@@ -39,124 +39,124 @@ namespace UnusualStart.Content
     {
         public override void NPCLoot(NPC npc)
         {
-            if (npc.type == NPCID.EyeofCthulhu)
+            if (npc.type == NPCID.EyeofCthulhu && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 25) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1,2));
                 }
             }
-            if (npc.type == NPCID.KingSlime)
+            if (npc.type == NPCID.KingSlime && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 15) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 3));
                 }
             }
-            if (npc.type == NPCID.QueenBee)
+            if (npc.type == NPCID.QueenBee && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 25) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 3));
                 }
             }
-            if (npc.type == NPCID.EaterofWorldsHead)
+            if (npc.type == NPCID.EaterofWorldsHead && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 15) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"));
                 }
             }
-            if (npc.type == NPCID.BrainofCthulhu)
+            if (npc.type == NPCID.BrainofCthulhu && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 15) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"));
                 }
             }
-            if (npc.type == NPCID.SkeletronHead)
+            if (npc.type == NPCID.SkeletronHead && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 30) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 2));
                 }
             }
-            if (npc.type == NPCID.EyeofCthulhu)
+            if (npc.type == NPCID.EyeofCthulhu && Main.expertMode)
             {
                 Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 3));
             }
-            if (npc.type == NPCID.Retinazer)
+            if (npc.type == NPCID.Retinazer && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 20) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 2));
                 }
             }
-            if (npc.type == NPCID.Spazmatism)
+            if (npc.type == NPCID.Spazmatism && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 20) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 2));
                 }
             }
-            if (npc.type == NPCID.TheDestroyer)
+            if (npc.type == NPCID.TheDestroyer && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 30) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 3));
                 }
             }
-            if (npc.type == NPCID.SkeletronPrime)
+            if (npc.type == NPCID.SkeletronPrime && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 35) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 4));
                 }
             }
-            if (npc.type == NPCID.Plantera)
+            if (npc.type == NPCID.Plantera && Main.expertMode)
             {
                 Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 4));
             }
-            if (npc.type == NPCID.Golem)
+            if (npc.type == NPCID.Golem && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 30) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 3));
                 }
             }
-            if (npc.type == NPCID.DukeFishron)
+            if (npc.type == NPCID.DukeFishron && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 50) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 5));
                 }
             }
-            if (npc.type == NPCID.CultistBoss)
+            if (npc.type == NPCID.CultistBoss && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 50) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 7));
                 }
             }
-            if (npc.type == NPCID.MoonLordHead)
+            if (npc.type == NPCID.MoonLordHead && Main.expertMode)
             {
                 Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(2,7));
             }
-            if (npc.type == NPCID.MartianSaucer)
+            if (npc.type == NPCID.MartianSaucer && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 10) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 4));
                 }
             }
-            if (npc.type == NPCID.PirateShip)
+            if (npc.type == NPCID.PirateShip && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 10) //31 in 100 chance of dropping
                 {
                     Item.NewItem(npc.getRect(), mod.ItemType("RandomSoul"), Main.rand.Next(1, 2));
                 }
             }
-            if (npc.type == NPCID.DD2Betsy)
+            if (npc.type == NPCID.DD2Betsy && Main.expertMode)
             {
                 if (Main.rand.Next(100) < 50) //31 in 100 chance of dropping
                 {
