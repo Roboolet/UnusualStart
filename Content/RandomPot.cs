@@ -50,12 +50,7 @@ namespace UnusualStart.Content
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Daybloom, 15);
-            recipe.AddIngredient(ItemID.Fireblossom, 15);
-            recipe.AddIngredient(ItemID.Waterleaf, 15);
-            recipe.AddIngredient(ItemID.Deathweed, 15);
-            recipe.AddIngredient(ItemID.Blinkroot, 15);
-            recipe.AddIngredient(ItemID.Shiverthorn, 15);
+            recipe.AddIngredient(mod.ItemType("RandomSoul"), 25);
             recipe.AddIngredient(ItemID.GoldChest);
             recipe.AddIngredient(ItemID.BottledWater);
             recipe.AddTile(TileID.Bottles);   //at work bench

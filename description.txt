@@ -7,6 +7,9 @@ WARNING: This item only supports items and projectiles from VANILLA Terraria
 Added the Soul of the Gambler
 (Rare drop from bosses)
 
+Added the Irregulator
+(Gun that shoots a cluster of arbitrary projectiles)
+
 ---Changelog 0.2.2---
 Improved the quality of the code
 
